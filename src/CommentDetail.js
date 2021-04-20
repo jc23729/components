@@ -1,6 +1,7 @@
+import React from 'react';
 import faker from "faker";
 
-const comments = () => {
+const CommentDetail = () => {
   return (
     <div classsName="ui container comments">
       <div classsName="comment">
@@ -47,4 +48,4 @@ const comments = () => {
   );
 };
 
-export default comments;
+export default CommentDetail;
